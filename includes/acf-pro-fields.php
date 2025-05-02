@@ -13,7 +13,6 @@ function register_career_embed_block() {
             'description'       => __('Embeds an external Career listing block by using an external JavaScript file.'),
             'render_callback'   => 'hbc_career_embed\\block\\career_embed_render_callback',
             'enqueue_assets'    => 'hbc_career_embed\\enqueue_js_css',
-            'enqueue_block_editor_assets'    => 'hbc_career_embed\\enqueue_js_css',
             'category'          => 'widgets',
             'icon'              => 'admin-site',
             'keywords'          => array('embed', 'script', 'career'),
